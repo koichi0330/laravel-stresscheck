@@ -12,8 +12,6 @@
         <form action="/submit" method="POST" class="mt-4">
             @csrf
             <div class="mb-3">
-                <label for="user_name" class="form-label">お名前</label>
-                <input type="text" name="user_name" id="user_name" class="form-control" required>
             </div>
             @foreach ($questions as $index => $question)
             <div class="mb-3">
